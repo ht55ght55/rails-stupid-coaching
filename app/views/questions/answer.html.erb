@@ -1,0 +1,20 @@
+<!-- <% console %> -->
+<div class="card">
+  <div class="grey"></div>
+  <div class="card_text">
+    <%= params[:question] %>
+  <p>-You</p>
+  </div>
+
+</div>
+<div class="card" id="answer">
+  <div class="grey"></div>
+  <div class="card_text">
+    <%= @answer %>
+  <p>-Your Coach</p>
+  </div>
+</div>
+
+<%= link_to "Know more about us", ask_path, class: "card" %>
+
+

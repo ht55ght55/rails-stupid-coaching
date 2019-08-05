@@ -1,0 +1,70 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#answer {
+  background-color: rgba(252, 245, 32, 0.5);
+  &:hover {
+  background-color: rgba(252, 245, 32, 0.7);
+  }
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1em;
+  font-family: 'Blinker', sans-serif;
+  width: 50vw;
+  box-shadow: .2em .2em 2em 0 rgba(222,222,222,0.3);
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: rgba(252, 245, 32, 0.2);
+}
+
+.grey {
+  width: 0.5em;
+  background-color: rgb(148, 158, 168);
+  /*margin-right: 1em;*/
+}
+
+.card_text {
+  padding: 0.5em 1em;
+}
+
+form {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10vh auto;
+}
+
+#submit {
+  border-radius: 0 4px 4px 0;
+  border-width: 0;
+  background-color: rgb(30, 161, 241);
+  padding: .5em;
+  position: relative;
+
+  // box-shadow: .2em .2em 1em 0 rgba(50,50,50,0.9);
+  &:after {
+    content: "";
+    // box-shadow: .2em .2em 1em 0 rgba(50,50,50,0.9);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+#question {
+  border-radius: 4px 0 0 4px;
+  border-width: 0;
+  box-shadow: .2em .2em 1em 0 rgba(50,50,50,0.5);
+  background-color: white;
+  padding: .5em;
+}
+
+

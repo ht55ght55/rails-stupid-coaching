@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+
+h1 {
+  font-family: 'Beth Ellen', cursive;
+  margin-top: 0.25em;
+  font-size: 16px;
+}
+
+p {
+  /*margin: 0;*/
+}
+
+.container {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+#form_container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
